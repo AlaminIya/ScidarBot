@@ -9,7 +9,7 @@ from sumy.summarizers.lsa import LsaSummarizer
 import io
 
 st.title("Scidar AI Assistant")
-genai.configure(api_key="AIzaSyCkaVDp1rsqM_vfJ5bLX-ECNltzUou2sTs")
+genai.configure(api_key="")
 
 def get_pdf_summary(pdf_docs):
     text = ""
